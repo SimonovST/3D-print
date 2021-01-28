@@ -1,0 +1,25 @@
+.intro {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
+  url("fon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: #1B1464;
+  padding: 160px;
+  margin-top: 76px;
+}
+
+.intro-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.intro .text-lead {
+  color: #1B1464;
+  max-width: 70%;
+  margin: 0 15%;
+}

@@ -1,0 +1,14 @@
+.horizontal-scroll-wrapper {
+  margin: 20px auto;
+  width: 60%;
+  height: 15em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;  /* чтобы картинки стояли в одну линию, не переходя на другую строку */
+  word-wrap: normal;
+}
+
+.horizontal-scroll-wrapper > img {
+  width: 20em;
+  height: 15em;
+}

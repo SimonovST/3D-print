@@ -1,0 +1,10 @@
+footer {
+  height: 120px;
+  background-color: #7f8fa6;
+  display: block;
+}
+
+.footer-icon {
+  width: 46px;
+  height: auto;
+}
