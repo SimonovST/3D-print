@@ -3,20 +3,23 @@ body {
 	color: #1B1464;
 	font-size: 16px;
 }
+/*https://css-tricks.com/examples/ViewportTypography/;
+https://css-tricks.com/viewport-sized-typography/
+Ссылки на зумирование шрифта привязать к проекту*/
 
 .title-large {
-	font-size: 48px;
+	font-size: calc(.3em + 3vw);
   margin-bottom: 18px;
 }
 
 .title-medium {
-  font-size: 36px;
+  font-size: calc(.3em + 2.5vw);
   font-weight: bold;
   margin-bottom: 18px;
 }
 
 .title-small {
-  font-size: 20px;
+  font-size: calc(.3em + 2vw);
   margin-bottom: 6px;
 }
 
